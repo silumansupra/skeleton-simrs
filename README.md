@@ -139,6 +139,8 @@ php artisan serve
 ---
 
 ## Struktur Direktori
+
+```
 app/
 ├── Http/
 │   ├── Controllers/
@@ -164,20 +166,22 @@ app/
 database/
 ├── migrations/
 └── seeders/
-└── DatabaseSeeder.php
-resources/views/
-├── auth/
-├── dashboard/
-├── errors/
-├── layouts/
-└── pengaturan/
-├── akun/
-├── akses/
-├── audit-log/
-├── menu/
-└── user/
+    └── DatabaseSeeder.php
+resources/
+└── views/
+    ├── auth/
+    ├── dashboard/
+    ├── errors/
+    ├── layouts/
+    └── pengaturan/
+        ├── akun/
+        ├── akses/
+        ├── audit-log/
+        ├── menu/
+        └── user/
 routes/
 └── web.php
+```
 
 ---
 
